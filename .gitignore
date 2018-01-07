@@ -1,0 +1,15 @@
+#ignore all
+*
+
+#Unignore all with extensions
+!*.*
+
+#Unignore all dirs
+!*/
+
+#Unignore ./build and ./c
+!build
+!c
+
+#ignore .o
+*.o
